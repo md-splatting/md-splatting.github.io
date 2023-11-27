@@ -138,16 +138,7 @@
                   <span>arXiv</span>
                 </a>
               </span>
-              <!-- Video Link. -->
-              <span class="link-block">
-                <a href="https://www.youtube.com"
-                   class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
-                      <i class="fab fa-youtube"></i>
-                  </span>
-                  <span>Video</span>
-                </a>
-              </span>
+
               <!-- Code Link. -->
               <span class="link-block">
                 <a href="https://github.com"
@@ -247,12 +238,29 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
             <p>
-                We introduce MD-Splatting, an approach for simultaneous 3D tracking and novel view synthesis, trained on video captures of a dynamic scene from various camera poses. 
-                MD-Splatting builds on recent advances in Gaussian splatting and learns a deformation function to project canonical Gaussians into metric space. 
-                The deformation function uses a canonical neural voxel encoding and a multi-layer perception (MLP) to infer Gaussian position, rotation, and a shadow scalar. 
-                When training MD-Splatting, we enforce physics-inspired regularization terms based on local rigidity, conservation of momentum, and isometry, which lead to a high-capacity metric deformation function and a canonical Gaussian representation. 
-                MD-Splatting achieves high-quality 3D tracking on highly deformable scenes with shadows and occlusions. 
-                Compared to state-of-the-art, we improve 3D tracking by an average of 16.7%, while simultaneously achieving high-quality novel view synthesis.
+              Accurate 3D tracking in highly deformable scenes with
+              occlusions and shadows can facilitate new applications in
+              robotics, augmented reality, and generative AI. However,
+              tracking under these conditions is extremely challenging
+              due to the ambiguity that arises with large deformations,
+              shadows, and occlusions. We introduce MD-Splatting, an
+              approach for simultaneous 3D tracking and novel view
+              synthesis, trained on video captures of a dynamic scene
+              from various camera poses. MD-Splatting builds on re-
+              cent advances in Gaussian splatting and learns a defor-
+              mation function to project canonical Gaussians into metric
+              space. The deformation function uses a canonical neural
+              voxel encoding and a multi-layer perception (MLP) to infer
+              Gaussian position, rotation, and a shadow scalar. When
+              training MD-Splatting, we enforce physics-inspired regu-
+              larization terms based on local rigidity, conservation of mo-
+              mentum, and isometry, which lead to a high-capacity met-
+              ric deformation function and a canonical Gaussian repre-
+              sentation. MD-Splatting achieves high-quality 3D tracking
+              on highly deformable scenes with shadows and occlusions.
+              Compared to state-of-the-art, we improve 3D tracking by
+              an average of 16.7 %, while simultaneously achieving high-
+              quality novel view synthesis
             </p>
           
         </div>
@@ -260,17 +268,6 @@
     </div>
     <!--/ Abstract. -->
 
-    <!-- Paper video. -->
-    <div class="columns is-centered has-text-centered">
-      <div class="column is-four-fifths">
-        <h2 class="title is-3">Video</h2>
-        <div class="publication-video">
-          <iframe src="https://www.youtube.com/embed/MrKrnHhk8IA?rel=0&amp;showinfo=0"
-                  frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-        </div>
-      </div>
-    </div>
-    <!--/ Paper video. -->
   </div>
 </section>
 
